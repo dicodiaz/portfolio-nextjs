@@ -1,0 +1,34 @@
+#headline {
+  background: url('/bg_headline_mobile.svg') right bottom -3.5rem no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  #headline {
+    background: url('/bg_headline_desktop.svg') top right -14rem no-repeat;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #headline {
+    background-position: top right -9rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #headline {
+    background-position: top right -4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #headline {
+    background-position: top right;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  #headline {
+    background: none;
+  }
+}

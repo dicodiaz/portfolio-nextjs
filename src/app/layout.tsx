@@ -4,7 +4,7 @@ import './globals.scss';
 const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="position-relative">{children}</body>
     </html>
   );
 };

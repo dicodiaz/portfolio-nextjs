@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import AboutMe from './sections/AboutMe';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 import Header from './sections/Header';
 import Headline from './sections/Headline';
 import Portfolio from './sections/Portfolio';
@@ -17,6 +18,7 @@ const App: FC = () => {
         <Skills />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 };

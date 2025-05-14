@@ -39,8 +39,8 @@ const Contact: FC = () => {
               transition={{ duration: 1 }}
               viewport={{ once: true }}
             >
-              I'm always interested in hearing about new projects, so if you'd like to chat please
-              get in touch.
+              I&apos;m always interested in hearing about new projects, so if you&apos;d like to
+              chat please get in touch.
             </motion.h4>
             <motion.div
               className="d-flex justify-content-center justify-content-md-start align-items-center py-2"

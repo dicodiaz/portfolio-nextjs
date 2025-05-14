@@ -31,7 +31,7 @@ const ProjectModal: FC<ProjectModalProps> = ({ data, show, onHide }) => {
             md={7}
             className="d-flex justify-content-center align-items-center mb-4 mb-md-0 pe-md-4"
           >
-            <Image src={images.desktop} fluid />
+            <Image src={images.desktop} alt={title} fluid />
           </Col>
           <Col md={5} className="d-md-flex flex-md-column justify-content-md-between">
             <p className="mb-3">{description}</p>

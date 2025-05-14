@@ -3,6 +3,7 @@ import AboutMe from './sections/AboutMe';
 import Header from './sections/Header';
 import Headline from './sections/Headline';
 import Portfolio from './sections/Portfolio';
+import Skills from './sections/Skills';
 
 const App: FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: FC = () => {
         <Headline />
         <Portfolio />
         <AboutMe />
+        <Skills />
       </main>
     </>
   );

@@ -24,6 +24,7 @@
 
 ## 🗝️ Key Features <a name="key-features"></a>
 
+- Implements `NextJS`
 - Implements `typescript`
 - Implements `react-bootstrap`
 
@@ -35,7 +36,7 @@
     <li><a href="https://react.dev">React</a></li>
   </ul>
   <ul>
-    <li><a href="https://vitejs.dev/">Vite</a></li>
+    <li><a href="https://nextjs.org/">NextJS</a></li>
   </ul>
 </details>
 
@@ -43,7 +44,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://portfolio.dicodiaz.com.co/](https://portfolio.dicodiaz.com.co/)
+- [https://portfolio-nextjs.dicodiaz.com.co/](https://portfolio-nextjs.dicodiaz.com.co/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +65,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git@github.com:dicodiaz/portfolio.git
+  git clone git@github.com:dicodiaz/portfolio-nextjs.git
 ```
 
 ### Install
@@ -72,8 +73,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd portfolio
-  pnpm install
+  cd portfolio-nextjs
+  pnpm i
 ```
 
 ### Usage
@@ -86,9 +87,9 @@ To run the project, execute the following commands:
 
 ### Deployment
 
-There's a CD pipeline set up to track the `develop` branch.
+There's a CD pipeline set up to track the `main` branch.
 
-Please open a PR from your feature branch to `develop` in order to contribute.
+Please open a PR from your feature branch to `main` in order to contribute.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
